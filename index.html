@@ -31,6 +31,68 @@
 
                 <label for="userImage">Upload de Foto</label>
                 <input type="file" accept="image/*" name="userImage">
+            </fieldset>
+
+            <fieldset>
+                <legend>Perfil</legend>
+
+                <p>Gênero</p>
+
+                <input type="radio" name="userGender" value="feminino">
+                <label for="userGender">Feminino</label>
+
+                <input type="radio" name="userGender" value="masculino">
+                <label for="userGender">Masculino</label>
+
+                <input type="radio" name="userGender" value="nao-informado">
+                <label for="userGender">Prefiro não informar</label><br><br>
+
+                <label for="userMaritalStatus">Estado Civil</label>
+
+                <select name="userMaritalStatus">
+                    <option value="nao-informado">Selecione...</option>
+                    <option value="solteiro">Solteiro</option>
+                    <option value="casado">Casado</option>
+                    <option value="divorciado">Divorciado</option>
+                    <option value="viuvo">Viúvo</option>
+                    <option value="uniao-estavel">União Estável</option>
+                </select><br><br>
+
+                <label for="userCity">Cidade</label>
+                <input type="text" name="userCity">
+
+                <label for="userState">Estado (UF)</label>
+
+                <select name="userSate" required>
+                    <option value="nao-informado">Selecione...</option>
+                    <option value="AC">Acre-AC</option>
+                    <option value="AL">Alagoas-AL</option>
+                    <option value="AP">Amapá-AP</option>
+                    <option value="AM">Amazonas-AM</option>
+                    <option value="BA">Bahia-BA</option>
+                    <option value="CE">Ceará-CE</option>
+                    <option value="DF">Distrito Federal-DF</option>
+                    <option value="ES">Espirito Santo-ES</option>
+                    <option value="GO">Goiás-GO</option>
+                    <option value="MA">Maranhão-MA</option>
+                    <option value="MS">Mato Grosso do Sul-MS</option>
+                    <option value="MT">Mato Grosso-MT</option>
+                    <option value="MG">Minas Gerais-MG</option>
+                    <option value="PA">Pará-PA</option>
+                    <option value="PB">Paraíba-PB</option>
+                    <option value="PR">Paraná-PR</option>
+                    <option value="PE">Pernambuco-PE</option>
+                    <option value="PI">Piauí-PI</option>
+                    <option value="RJ">Rio de Janeiro-RJ</option>
+                    <option value="RN">Rio Grande do Norte-RN</option>
+                    <option value="RS">Rio Grande do Sul-RS</option>
+                    <option value="RO">Rondônia-RO</option>
+                    <option value="RR">Roraima-RR</option>
+                    <option value="SC">Santa Catarina-SC</option>
+                    <option value="SP">São Paulo-SP</option>
+                    <option value="SE">Sergipe-SE</option>
+                    <option value="TO">Tocantins-TO</option>
+                </select>
             </fieldset><br>
 
             <button type="submit">Enviar</button>
