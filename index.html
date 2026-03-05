@@ -37,7 +37,7 @@
                 <legend>Perfil</legend>
 
                 <p>Gênero</p>
-                
+
                 <input type="radio" name="userGender" value="feminino">
                 <label for="userGender">Feminino</label>
 
@@ -45,7 +45,18 @@
                 <label for="userGender">Masculino</label>
 
                 <input type="radio" name="userGender" value="nao-informado">
-                <label for="userGender">Prefiro não informar</label>
+                <label for="userGender">Prefiro não informar</label><br><br>
+
+                <label for="userMaritalStatus">Estado Civil</label>
+
+                <select name="userMaritalStatus">
+                    <option value="nao-informado">Selecione...</option>
+                    <option value="solteiro">Solteiro</option>
+                    <option value="casado">Casado</option>
+                    <option value="divorciado">Divorciado</option>
+                    <option value="viuvo">Viúvo</option>
+                    <option value="uniao-estavel">União Estável</option>
+                </select>
             </fieldset><br>
 
             <button type="submit">Enviar</button>
